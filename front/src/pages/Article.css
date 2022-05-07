@@ -1,0 +1,139 @@
+.container_aricle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+.square_article {
+	margin: 0 auto;
+	width: 600px;
+	height: 500px;
+	background: white;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.mask_article {
+	border-radius: 4px 4px 0px 0px;
+	width: 600px;
+	height: 350px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+	background-size: cover;
+	background-position: center;
+}
+
+img {
+	width: 100%;
+}
+
+p {
+	text-align: justify;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #837f7f;
+	line-height: 18px;
+}
+
+.h1_article {
+	margin: auto;
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding-left: 30px;
+	color: black;
+	font-family: 'Merriweather', serif;
+	font-size: 18px;
+}
+
+.btn_suppr {
+	float: right;
+	font-size: 20px;
+	color: white;
+	margin-right: 15%;
+}
+
+.btn_suppr :hover {
+	transform: scale(1.09);
+	transition-timing-function: ease-in-out;
+	cursor: pointer;
+}
+
+@media (max-width: 415px) {
+	html {
+		width: 414px;
+	}
+
+	.mask_article {
+		width: 360px;
+		height: 200px;
+		margin-top: -102px;
+	}
+	.square_article {
+		width: 360px;
+		height: 300px;
+		margin-top: 30px;
+		margin-bottom: 200px;
+	}
+
+	header {
+		display: block;
+	}
+
+	.login_button {
+		margin: 0;
+	}
+	.logo {
+		width: 200px;
+		margin-top: -60px;
+		margin-left: 10px;
+		margin-right: 0px;
+	}
+	.h1_article {
+		margin: auto;
+		text-align: left;
+		margin-bottom: 5px;
+		padding-left: 10px;
+		color: black;
+		font-family: 'Merriweather', serif;
+		font-size: 10px;
+		margin-top: -11px;
+	}
+	.text_article {
+		padding-left: 10px;
+		padding-right: 30px;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 10px;
+		color: #837f7f;
+		line-height: 18px;
+		margin-top: -9px;
+	}
+
+	.delete_profil {
+		font-size: 10px;
+		margin-left: 250px;
+		margin-right: 0px;
+	}
+	.login_button {
+		font-size: 10px;
+		float: right;
+		margin-top: -155px;
+		margin-right: 20px;
+	}
+}

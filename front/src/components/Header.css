@@ -1,0 +1,38 @@
+header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	background: #35536f;
+	width: 100%;
+}
+
+.logo {
+	margin-left: 60px;
+	margin-top: 15px;
+	width: 25%;
+}
+
+.login_button {
+	font-family: "Roboto", sans-serif;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 14px;
+	color: white;
+	margin-right: 130px;
+	font-weight: 600;
+}
+
+.delete_profil {
+	font-family: "Roboto", sans-serif;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 14px;
+	color: white;
+	font-weight: 600;
+	margin-left: 60px;
+	display: inline;
+	white-space: nowrap;
+	margin-right: 20px;
+}
